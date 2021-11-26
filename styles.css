@@ -11,10 +11,10 @@ html {
 body {
   font-size: 2rem;
   scroll-behavior: smooth;
-}
-@media (min-width: 320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-}
+} /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+/* @media (min-width: 320px) {
+
+} */
 @media (max-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
   header {
