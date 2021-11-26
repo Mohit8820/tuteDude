@@ -7,9 +7,10 @@ html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  color: #800780;
 }
 body {
-  font-size: 2rem;
+  font-size: 1.4rem;
   scroll-behavior: smooth;
 } /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 /* @media (min-width: 320px) {
@@ -54,7 +55,6 @@ body {
   main {
     background-color: #ecd9ec;
     text-align: center;
-    color: #800780;
   }
   .card-light {
     margin: 2rem auto;
@@ -73,10 +73,13 @@ body {
     background-color: #800780;
     width: 60%;
   }
-  .main-sec {
-    margin: 0 auto;
-    background-color: #dcbadc;
+  .wid {
     width: 97%;
+    margin: 0 auto;
+  }
+  .main-sec {
+    background-color: #dcbadc;
+
     padding: 2rem 6rem;
     border-radius: 0.5rem 0.5rem 0 0;
     box-shadow: rgb(0, 0, 0, 25%) 0px -5px 5px;
@@ -93,9 +96,8 @@ body {
     align-items: center;
     /* justify-items: center; */
     text-align: center;
-    margin: 0 auto;
+
     background-color: #7e267e;
-    width: 97%;
     padding: 2rem 8rem;
     color: #7e267e;
     gap: 1rem;
@@ -106,6 +108,17 @@ body {
     background: linear-gradient(125deg, #fefefe, #a76ca7);
     height: 10rem;
     border-radius: 2rem;
+  }
+  .comp {
+    transform: scale(2.5) translate(0%, -35%);
+    border-radius: 0.5rem;
+  }
+  .card-shine {
+    background-color: #dcbadc;
+    margin-top: 12rem;
+    padding: 2rem 6rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
   }
 }
 @media (min-width: 600px) {
