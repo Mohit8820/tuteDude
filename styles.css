@@ -15,7 +15,7 @@ body {
 /* @media (min-width: 320px) {
 
 } */
-@media (max-width: 480px) {
+@media (max-width: 880px) {
   /* smartphones, Android phones, landscape iPhone */
   header {
     display: flex;
