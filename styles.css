@@ -10,353 +10,356 @@ html {
   color: #800780;
 }
 body {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   scroll-behavior: smooth;
 } /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
 /* @media (min-width: 320px) {
 
 } */
-@media (min-width: 320px) {
-  /* smartphones, Android phones, landscape iPhone */
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 4rem;
-    box-shadow: rgb(0, 0, 0, 30%) 0px 5px 8px;
-    background-color: white;
-    margin-bottom: 5rem;
-  }
-  .logo {
-    width: 13rem;
-  }
-  .flexDis {
-    display: flex;
-  }
-  .menu {
-    width: 3rem;
-  }
-  .btn {
-    border-radius: 0.5rem;
-    padding: 0.4rem 0.6rem;
-    margin-right: 0.5rem;
-    font-family: "Poppins", sans-serif;
-  }
-  .btn-light {
-    border-color: #af5faf;
-    background: none;
-    color: #800780;
-  }
-  .btn-fill {
-    border: none;
-    background: linear-gradient(to right, #b16ece, #8757c1);
-    color: white;
-  }
-  main {
-    background-color: #ecd9ec;
-    text-align: center;
-  }
-  .card-light {
-    margin: 2rem auto;
-    border-radius: 0.5rem;
-    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
-    width: 75%;
-    padding: 2rem 2rem;
-    color: #800780;
-    background-color: white;
-  }
-  .card-fill {
-    margin: 3rem auto;
-    border-radius: 0.5rem;
-    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
-    padding: 1rem 5rem;
-    color: white;
-    background-color: #800780;
-    width: 60%;
-  }
-  .wid {
-    width: 97%;
-    margin: 0 auto;
-  }
-  .main-sec {
-    background-color: #dcbadc;
-    padding: 2rem 6rem;
-    border-radius: 0.5rem 0.5rem 0 0;
-    box-shadow: rgb(0, 0, 0, 25%) 0px -5px 5px;
-  }
-  .just {
-    text-align: justify;
-    font-size: 1.4rem;
-  }
-  .stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    /* justify-items: center; */
-    text-align: center;
-    background-color: #7e267e;
-    padding: 2rem 8rem;
-    color: #7e267e;
-    gap: 1rem;
-  }
-  .stats div {
-    display: grid;
-    align-content: center;
-    background: linear-gradient(125deg, #fefefe, #a76ca7);
-    height: 10rem;
-    border-radius: 2rem;
-    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
-  }
-  .comp {
-    transform: scale(2.5) translate(0%, -35%);
-    border-radius: 0.5rem;
-  }
-  .card-shine {
-    background-color: #dcbadc;
-    margin-top: 12rem;
-    padding: 2rem 6rem 2rem;
-    border-radius: 0.5rem;
-    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
-  }
-  .money-back {
-    margin-top: 2rem;
-    color: white;
-    padding: 2rem 6rem 2rem;
-    border-radius: 0.5rem;
-    box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
-    background: linear-gradient(to right, #b46fcf, #8657c1);
-  }
-  .categories {
-    display: flex;
-    width: 97%;
-    overflow: scroll;
-  }
-  .categories button {
-    border-radius: 4rem;
-    border: none;
-    display: flex;
-    gap: 0.5rem;
-    color: #a64ea6;
-    background-color: #dec2de;
-    margin-left: 2rem;
-  }
-  .arrow {
-    width: 2rem;
-    height: 2rem;
-  }
-  .course-container {
-    background-color: #efe4ef;
-  }
-  .courses {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    /* justify-items: center; */
-    text-align: center;
-    padding: 2rem 8rem;
-    gap: 1rem;
-  }
-  .courses div {
-    height: 15rem;
-    background-color: #7e267e;
-    width: 15rem;
-    color: white;
-    border-radius: 0.5rem;
-  }
-  .courses div img {
-    width: 95%;
-  }
-
-  .hear {
-    position: relative;
-    background: linear-gradient(to bottom, #fff 65%, #8a158a 35%);
-    padding: 2rem 0rem 2rem 2rem;
-  }
-  .hear .flexDis {
-    overflow: scroll;
-  }
-  .others {
-    border-radius: 0.5rem;
-    padding: 2rem;
-    border: 0.3rem #8a158a solid;
-    text-align: left;
-    margin: 3.8rem 1rem;
-    background-color: white;
-  }
-  .others img {
-    border-radius: 50%;
-    margin-right: 1rem;
-  }
-  .others .intro {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  .others p {
-    width: 20rem;
-    margin-left: 4rem;
-    color: rgba(0, 0, 0, 0.863);
-  }
-  .grey {
-    font-size: 1.4rem;
-    color: rgba(0, 0, 0, 0.5) !important;
-  }
-  .next-btn {
-    border-radius: 50%;
-    background-color: #8a158a;
-    border: none;
-    color: white;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    right: 1rem;
-  }
-  .other-courses {
-    background-color: #8a158a;
-    color: white;
-    padding: 0 0 2rem 0;
-  }
-  .other-courses-card {
-    background: linear-gradient(160deg, #fefefe 25%, #a76ca7);
-    width: 30rem;
-    border-radius: 2rem;
-    margin: 2rem auto;
-    height: 15rem;
-    position: relative;
-    text-align: left;
-    padding: 1rem 5rem;
-  }
-  .other-courses-card h3 {
-    color: #fe15fe;
-  }
-  .other-courses-card span {
-    color: #000;
-  }
-  .other-courses-card p {
-    color: #8a158a;
-    font-size: 1rem;
-  }
-  .other-courses-card span div {
-    flex-direction: column;
-  }
-  .other-courses-card::before {
-    content: "";
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: #8a158a;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    border-right: solid 0.2rem rgb(0, 0, 0, 25%);
-  }
-  .other-courses-card::after {
-    content: "save 1297";
-    text-align: center;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background-color: #8a158a;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(50%, -50%);
-    border-right: solid 0.2rem rgb(0, 0, 0, 25%);
-  }
-  .other-courses-card button {
-    background-color: #8a158a;
-    border-radius: 2rem;
-    color: white;
-    border: none;
-    width: 17rem;
-    height: 4rem;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.8rem;
-  }
-  .query {
-    background: linear-gradient(to bottom, #8a158a 70%, #fff 30%);
-    color: white;
-  }
-  .query-asked {
-    width: 28rem;
-    height: 3.8rem;
-    margin: 1rem auto;
-    background-color: #c8a2c8;
-    font-size: 1.2rem;
-    text-decoration: none;
-    position: relative;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .query-asked a {
-    text-decoration: none;
-    color: black;
-  }
-  .query-asked button {
-    width: 3.8rem;
-    height: 3.8rem;
-    position: absolute;
-    right: 0;
-    border: none;
-    border-radius: 0 1rem 1rem 0;
-    background-color: #8a158a;
-  }
-  .search {
-    color: #8a158a;
-    width: 30rem;
-    height: 3.8rem;
-    border-radius: 1rem;
-    border: 0.2rem #8a158a solid;
-    display: flex;
-    margin: 3rem auto;
-    position: relative;
-  }
-  .search input {
-    border: none;
-  }
-  .search button {
-    width: 3.8rem;
-    height: 3.8rem;
-    position: absolute;
-    top: -0.2rem;
-    right: 0;
-    border: none;
-    border-radius: 0 1rem 1rem 0;
-    background-color: #8a158a;
-  }
-  footer {
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding: 2rem;
-  }
-  footer ul {
-    list-style: none;
-    margin-left: 2rem;
-    font-size: 1.4rem;
-    line-height: 3rem;
-  }
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  .icons {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 30px 30px;
-  }
+/* @media (min-width: 320px) { */
+/* smartphones, Android phones, landscape iPhone */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0.5rem 0;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 5px 8px;
+  background-color: white;
+  margin-bottom: 5rem;
 }
+.logo {
+  width: 12rem;
+}
+.flexDis {
+  display: flex;
+}
+.menu {
+  width: 3rem;
+  margin-left: 1rem;
+}
+.btn {
+  border-radius: 0.5rem;
+  padding: 0rem 0.5rem;
+  margin-right: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+.btn-light {
+  border-color: #af5faf;
+  background: none;
+  color: #800780;
+  font-weight: 700;
+}
+.btn-fill {
+  border: none;
+  background: linear-gradient(to right, #b16ece, #8757c1);
+  color: white;
+}
+main {
+  background-color: #ecd9ec;
+  text-align: center;
+}
+.card-light {
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  width: 75%;
+  padding: 2rem 2rem;
+  color: #800780;
+  background-color: white;
+}
+.card-fill {
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  padding: 1rem 5rem;
+  color: white;
+  background-color: #800780;
+  width: 60%;
+}
+.wid {
+  width: 97%;
+  margin: 0 auto;
+}
+.main-sec {
+  background-color: #dcbadc;
+  padding: 2rem 6rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  box-shadow: rgb(0, 0, 0, 25%) 0px -5px 5px;
+}
+.just {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+  text-align: center;
+  background-color: #7e267e;
+  padding: 2rem 8rem;
+  color: #7e267e;
+  gap: 1rem;
+}
+.stats div {
+  display: grid;
+  align-content: center;
+  background: linear-gradient(125deg, #fefefe, #a76ca7);
+  height: 10rem;
+  border-radius: 2rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+}
+.comp {
+  transform: scale(2.5) translate(0%, -35%);
+  border-radius: 0.5rem;
+}
+.card-shine {
+  background-color: #dcbadc;
+  margin-top: 12rem;
+  padding: 2rem 6rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+}
+.money-back {
+  margin-top: 2rem;
+  color: white;
+  padding: 2rem 6rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  background: linear-gradient(to right, #b46fcf, #8657c1);
+}
+.categories {
+  display: flex;
+  width: 97%;
+  overflow: scroll;
+}
+.categories button {
+  border-radius: 4rem;
+  border: none;
+  display: flex;
+  gap: 0.5rem;
+  color: #a64ea6;
+  background-color: #dec2de;
+  margin-left: 2rem;
+}
+.arrow {
+  width: 2rem;
+  height: 2rem;
+}
+.course-container {
+  background-color: #efe4ef;
+}
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  /* justify-items: center; */
+  text-align: center;
+  padding: 2rem 8rem;
+  gap: 1rem;
+}
+.courses div {
+  height: 15rem;
+  background-color: #7e267e;
+  width: 15rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+.courses div img {
+  width: 95%;
+}
+
+.hear {
+  position: relative;
+  background: linear-gradient(to bottom, #fff 65%, #8a158a 35%);
+  padding: 2rem 0rem 2rem 2rem;
+}
+.hear .flexDis {
+  overflow: scroll;
+}
+.others {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  border: 0.3rem #8a158a solid;
+  text-align: left;
+  margin: 3.8rem 1rem;
+  background-color: white;
+}
+.others img {
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.others .intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.others p {
+  width: 20rem;
+  margin-left: 4rem;
+  color: rgba(0, 0, 0, 0.863);
+}
+.grey {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.next-btn {
+  border-radius: 50%;
+  background-color: #8a158a;
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+}
+.other-courses {
+  background-color: #8a158a;
+  color: white;
+  padding: 0 0 2rem 0;
+}
+.other-courses-card {
+  background: linear-gradient(160deg, #fefefe 25%, #a76ca7);
+  width: 30rem;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  height: 15rem;
+  position: relative;
+  text-align: left;
+  padding: 1rem 5rem;
+}
+.other-courses-card h3 {
+  color: #fe15fe;
+}
+.other-courses-card span {
+  color: #000;
+}
+.other-courses-card p {
+  color: #8a158a;
+  font-size: 1rem;
+}
+.other-courses-card span div {
+  flex-direction: column;
+}
+.other-courses-card::before {
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #8a158a;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-right: solid 0.2rem rgb(0, 0, 0, 25%);
+}
+.other-courses-card::after {
+  content: "save 1297";
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #8a158a;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  border-right: solid 0.2rem rgb(0, 0, 0, 25%);
+}
+.other-courses-card button {
+  background-color: #8a158a;
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  width: 17rem;
+  height: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+.query {
+  background: linear-gradient(to bottom, #8a158a 70%, #fff 30%);
+  color: white;
+}
+.query-asked {
+  width: 28rem;
+  height: 3.8rem;
+  margin: 1rem auto;
+  background-color: #c8a2c8;
+  font-size: 1.2rem;
+  text-decoration: none;
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.query-asked a {
+  text-decoration: none;
+  color: black;
+}
+.query-asked button {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: absolute;
+  right: 0;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  background-color: #8a158a;
+}
+.search {
+  color: #8a158a;
+  width: 30rem;
+  height: 3.8rem;
+  border-radius: 1rem;
+  border: 0.2rem #8a158a solid;
+  display: flex;
+  margin: 3rem auto;
+  position: relative;
+}
+.search input {
+  border: none;
+}
+.search button {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: absolute;
+  top: -0.2rem;
+  right: 0;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  background-color: #8a158a;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 2rem;
+}
+footer ul {
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.icons {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 30px 30px;
+}
+/* } */
 @media (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
