@@ -103,6 +103,9 @@ main p {
 .explore {
   width: 23rem;
   height: 4.5rem;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 .wid {
   width: 97%;
@@ -523,6 +526,7 @@ main p {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   box-shadow: rgb(0, 0, 0, 50%) 0px 0px 6px;
+  font-weight: 600;
 }
 .query {
   background: linear-gradient(to bottom, #8a158a 60%, #fff 40%);
