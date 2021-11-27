@@ -37,6 +37,13 @@ header {
   width: 3rem;
   margin-left: 1rem;
 }
+button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+button:active {
+  box-shadow: none;
+}
 .btn {
   border-radius: 0.5rem;
   padding: 0.4rem 0.6rem;
@@ -149,7 +156,7 @@ main p {
   padding: 2rem 8rem;
   color: #7e267e;
   gap: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.7rem;
 }
@@ -161,11 +168,12 @@ main p {
   display: grid;
   align-content: center;
   background: linear-gradient(125deg, #fefefe, #a76ca7);
-  width: 13rem;
+  width: 13.5rem;
   height: 10rem;
   padding: 0.2rem;
   border-radius: 2rem;
   box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  margin-bottom: 0.5rem;
 }
 .recipe-head {
   width: 30rem;
@@ -191,12 +199,11 @@ main p {
 
 .card-shine ul li {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   padding-left: 2rem;
   font-size: 1.3rem;
   font-weight: 600;
 }
-
 .card-shine ul li:after {
   /* bullets */
   content: url("iconmonstr-triangle-1-2401.png");
@@ -246,8 +253,9 @@ main p {
   position: absolute;
   top: -50%;
   left: 50%;
-  transform: translate(-50%, 40%);
+  transform: translate(-50%, 50%);
   border-radius: 0.5rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 
 .money-back {
@@ -263,6 +271,7 @@ main p {
   width: 25rem;
   border-radius: 1rem;
   margin-top: 1rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .money-back p {
   font-size: 1.6rem;
@@ -275,6 +284,9 @@ main p {
 }
 .know-more {
   padding: 1rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: none;
 }
 .skills {
   background-color: #efe4ef;
@@ -320,6 +332,7 @@ main p {
 }
 .course-container {
   background-color: #efe4ef;
+  text-align: center;
 }
 .courses {
   display: grid;
@@ -327,10 +340,10 @@ main p {
   align-content: center;
   justify-content: center;
   align-items: center;
-  /* justify-items: center; */
+  justify-items: center;
   text-align: center;
   padding: 2rem 8rem;
-  gap: 1rem;
+  gap: 1.6rem;
 }
 .courses div {
   height: 20rem;
@@ -338,6 +351,7 @@ main p {
   width: 15rem;
   color: white;
   border-radius: 1.5rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .courses div img {
   width: 92%;
@@ -350,12 +364,13 @@ main p {
   text-align: center;
   font-size: 1.8rem;
   border-radius: 1rem;
+  border: none;
 }
 
 .hear {
   position: relative;
   background: linear-gradient(to bottom, #fff 65%, #8a158a 35%);
-  padding: 2rem 0rem 2rem 2rem;
+  padding: 5rem 0rem 2rem 2rem;
 }
 .hear .flexDis {
   overflow: scroll;
@@ -367,10 +382,12 @@ main p {
   text-align: left;
   margin: 3.8rem 1rem;
   background-color: white;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .others img {
   border-radius: 50%;
   margin-right: 1rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .others .intro {
   display: flex;
@@ -380,11 +397,18 @@ main p {
 .others p {
   width: 20rem;
   margin-left: 4rem;
-  color: rgba(0, 0, 0, 0.863);
+  color: rgba(0, 0, 0, 0.966);
+}
+.others a {
+  text-decoration: none;
+  color: #8a158a;
+  font-weight: 700;
 }
 .grey {
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .next-btn {
   border-radius: 50%;
@@ -399,99 +423,154 @@ main p {
   position: absolute;
   top: 50%;
   right: 1rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .other-courses {
   background-color: #8a158a;
   color: white;
   padding: 0 0 2rem 0;
 }
+.other-courses h3 {
+  font-size: 1.8rem;
+}
 .other-courses-card {
   background: linear-gradient(160deg, #fefefe 25%, #a76ca7);
   width: 30rem;
   border-radius: 2rem;
   margin: 2rem auto;
-  height: 15rem;
+  height: 17.5rem;
   position: relative;
   text-align: left;
   padding: 1rem 5rem;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .other-courses-card h3 {
   color: #fe15fe;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 .other-courses-card span {
   color: #000;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .other-courses-card p {
   color: #8a158a;
   font-size: 1rem;
+  font-weight: 500;
+  margin: 0.8rem 0;
+}
+.other-courses-card .grey {
+  text-decoration: line-through;
 }
 .other-courses-card span div {
   flex-direction: column;
+  margin-left: 0.5rem;
 }
 .other-courses-card::before {
   content: "";
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   background-color: #8a158a;
   position: absolute;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
-  border-right: solid 0.2rem rgb(0, 0, 0, 25%);
+  border-right: solid 0.4rem rgba(0, 0, 0, 0.144);
+}
+.second::after {
+  content: "save \20B9 10180";
+}
+.first::after {
+  content: "save \20B9 1297";
 }
 .other-courses-card::after {
-  content: "save 1297";
   text-align: center;
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
-  background-color: #8a158a;
+  background: conic-gradient(
+    at 50%,
+    #800780,
+    #800780cc 20%,
+    #800780 30%,
+    #800780c0 50%,
+    #800780 80%,
+    #800780b9 90%,
+    #800780
+  );
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translate(50%, -50%);
+  transform: translate(35%, -50%);
   border-right: solid 0.2rem rgb(0, 0, 0, 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  box-shadow: rgb(0, 0, 0, 50%) 0px 0px 6px;
 }
+
 .other-courses-card button {
+  margin-left: 1.5rem;
   background-color: #8a158a;
   border-radius: 2rem;
   color: white;
   border: none;
   width: 17rem;
-  height: 4rem;
+  height: 3.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
+  box-shadow: rgb(0, 0, 0, 50%) 0px 0px 6px;
 }
 .query {
-  background: linear-gradient(to bottom, #8a158a 70%, #fff 30%);
+  background: linear-gradient(to bottom, #8a158a 60%, #fff 40%);
   color: white;
 }
 .query-asked {
   width: 28rem;
-  height: 3.8rem;
-  margin: 1rem auto;
+  height: 4rem;
+  margin: 1.5rem auto;
   background-color: #c8a2c8;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   position: relative;
   border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .query-asked a {
   text-decoration: none;
   color: black;
+  font-weight: 500;
 }
 .query-asked button {
-  width: 3.8rem;
-  height: 3.8rem;
+  width: 4rem;
+  height: 4rem;
   position: absolute;
   right: 0;
   border: none;
-  border-radius: 0 1rem 1rem 0;
-  background-color: #8a158a;
+  border-radius: 0 0.8rem 0.8rem 0;
+  background: conic-gradient(
+    at 50%,
+    #800780,
+    #800780cc 20%,
+    #800780 30%,
+    #800780c0 50%,
+    #800780 80%,
+    #800780b9 90%,
+    #800780
+  );
+}
+::placeholder {
+  color: #8a158a;
+  opacity: 1;
+}
+.search-ico {
+  margin: 0 1rem;
 }
 .search {
   color: #8a158a;
@@ -505,22 +584,25 @@ main p {
 }
 .search input {
   border: none;
+  width: 22rem;
 }
 .search button {
   width: 3.8rem;
   height: 3.8rem;
   position: absolute;
   top: -0.2rem;
-  right: 0;
+  right: -0.2rem;
   border: none;
   border-radius: 0 1rem 1rem 0;
-  background-color: #8a158a;
+  background: conic-gradient(at 50%, #800780, #800780b9 90%, #800780);
+  background: linear-gradient(0.5turn, #800780, #800780b9, #800780);
 }
 footer {
   background-color: black;
   color: white;
   text-align: left;
   padding: 2rem;
+  font-weight: 400;
 }
 footer ul {
   list-style: none;
