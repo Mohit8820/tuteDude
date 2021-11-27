@@ -62,6 +62,7 @@ main {
 }
 main p {
   font-size: 1.4rem;
+  font-weight: 500;
 }
 .card-light {
   margin: 3rem auto;
@@ -93,19 +94,49 @@ main p {
   border: 0.3rem solid #800780;
   color: #800780;
 }
+.explore {
+  width: 23rem;
+  height: 4.5rem;
+}
 .wid {
   width: 97%;
   margin: 0 auto;
 }
 .main-sec {
   background-color: #dcbadc;
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
   border-radius: 0.5rem 0.5rem 0 0;
   box-shadow: rgb(0, 0, 0, 25%) 0px -5px 5px;
 }
 .just {
+  margin-top: 1rem;
   text-align: justify;
   font-size: 1.4rem;
+  font-weight: 400;
+}
+.video {
+  width: 28rem;
+  position: relative;
+  padding: 1.5rem 0 1.5rem 3rem;
+}
+.video div {
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.play {
+  background: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 2.5rem;
+  border: 0.3rem solid #800780;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .stats {
   display: grid;
