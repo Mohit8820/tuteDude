@@ -320,6 +320,7 @@ main p {
 }
 .categories button {
   border-radius: 4rem;
+  height: auto;
   border: none;
   display: flex;
   gap: 0.5rem;
