@@ -388,7 +388,7 @@ main p {
 .hear {
   position: relative;
   background: linear-gradient(to bottom, #fff 65%, #8a158a 35%);
-  padding: 5rem 0rem 2rem 2rem;
+  padding: 5rem 0rem 2rem;
 }
 .hear .flexDis {
   overflow: scroll;
@@ -403,7 +403,7 @@ main p {
   box-shadow: rgb(0, 0, 0, 30%) 0px 3px 5px;
 }
 .others:first-of-type {
-  margin-left: 2.7rem;
+  margin-left: 4rem;
 }
 .others img {
   border-radius: 50%;
