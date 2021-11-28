@@ -24,15 +24,15 @@ body {
 /* smartphones, Android phones, landscape iPhone */
 header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  padding: 4rem 1rem 0;
-  box-shadow: rgb(0, 0, 0, 30%) 0px 5px 8px;
+  padding: 4rem 1rem 0.7rem;
+  box-shadow: rgb(0, 0, 0, 20%) 0px 4px 5px;
   background-color: white;
   margin-bottom: 5rem;
 }
 .logo {
-  width: 13rem;
+  width: 13.5rem;
 }
 .flexDis {
   display: flex;
@@ -53,13 +53,13 @@ button:active {
   padding: 0.4rem 0.6rem;
   margin-right: 0.5rem;
   font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .btn-light {
   border: 0.15rem solid #800780;
   background: none;
   color: #800780;
-  font-weight: 700;
+  font-weight: 600;
 }
 .btn-fill {
   border: none;
@@ -77,7 +77,7 @@ main p {
 .card-light {
   margin: 3rem auto;
   border-radius: 0.5rem;
-  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  box-shadow: rgb(0, 0, 0, 20%) 0px 4px 5px;
   width: 75%;
   padding: 2rem 0rem;
   color: #800780;
@@ -86,7 +86,7 @@ main p {
 .card-fill {
   margin: 3rem auto;
   border-radius: 0.5rem;
-  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  box-shadow: rgb(0, 0, 0, 20%) 0px 4px 5px;
   padding: 1rem 2rem;
   color: white;
   background-color: #800780;
@@ -119,7 +119,7 @@ main p {
   background-color: #dcbadc;
   padding: 2rem 4rem;
   border-radius: 0.5rem 0.5rem 0 0;
-  box-shadow: rgb(0, 0, 0, 25%) 0px -5px 5px;
+  box-shadow: rgb(0, 0, 0, 25%) 0px -4px 5px;
 }
 .just {
   margin-top: 1rem;
@@ -180,12 +180,13 @@ main p {
   height: 10rem;
   padding: 0.2rem;
   border-radius: 2rem;
-  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 4px 5px;
   margin-bottom: 0.5rem;
 }
 .recipe-head {
   width: 30rem;
   padding: 1rem 6rem;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 4px 5px;
 }
 .card-shine {
   position: relative;
@@ -202,7 +203,7 @@ main p {
   margin-top: 12rem;
   padding: 12rem 3rem 4rem 6rem;
   border-radius: 0.5rem;
-  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 4px 5px;
 }
 
 .card-shine ul li {
@@ -271,7 +272,7 @@ main p {
   color: white;
   padding: 2rem 4rem 2rem;
   border-radius: 0.8rem;
-  box-shadow: rgb(0, 0, 0, 25%) 0px 5px 5px;
+  box-shadow: rgb(0, 0, 0, 25%) 0px 4px 5px;
   background: linear-gradient(to right, #b46fcf, #8657c1);
   font-weight: 600;
 }
@@ -285,20 +286,20 @@ main p {
   font-size: 1.6rem;
   font-weight: 600;
 }
-.categories {
-  display: flex;
-  width: 97%;
-  overflow: scroll;
-}
+
 .know-more {
   padding: 1rem;
   font-weight: 700;
   font-size: 1.8rem;
   border: none;
 }
+.categories {
+  display: flex;
+  overflow: scroll;
+}
 .skills {
   background-color: #efe4ef;
-  padding: 3rem 2rem;
+  padding: 3rem 0rem;
   text-align: left;
 }
 .skills-head {
@@ -308,6 +309,9 @@ main p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.skills h4 {
+  margin-left: 2rem;
 }
 .categories button {
   border-radius: 4rem;
