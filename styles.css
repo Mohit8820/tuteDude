@@ -252,10 +252,10 @@ main p {
   height: 63px;
   width: 1px;
 }
-.card-shine ul li:first-child::after {
+/* .card-shine ul li:first-child::after {
   width: 5rem;
   height: 4rem;
-}
+} */
 .card-shine ul li:first-child:before {
   top: 2px;
 }
@@ -669,4 +669,19 @@ footer a {
 }
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */
+}
+
+/******************************************************************/
+
+.wid li:hover {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.act {
+  font-size: 1.6rem !important;
+  color: #000;
+}
+.act::after {
+  width: 5rem;
+  height: 4rem;
 }
