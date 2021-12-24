@@ -1,5 +1,4 @@
 var li = document.getElementById("ulist").getElementsByTagName("li");
-var image = document.getElementsByClassName("image");
 var im = document.getElementById("im");
 var images = [
   "computing_work_background_computer_lightbulb_digital_elements_sketch_6853111.jpg",
